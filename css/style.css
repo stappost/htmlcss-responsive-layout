@@ -14,15 +14,11 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-header .content{
-    height: 50px;
-    
-}
 .content{
     margin: 10px;
-    height: 300px;
+    /* height: 300px; 
     background-color: red;
-    border: 1px solid black;
+    border: 1px solid black; */
 }
 
 
@@ -40,7 +36,7 @@ header .col-50{
 }
 /* BACKGROUND  */
 .bg_blue{
-    background-color: blue;
+    background-color: rgb(38, 121, 216)
 }
 .bg_purple{
     background-color: purple;
@@ -48,12 +44,26 @@ header .col-50{
 .bg_black{
     background-color: rgba(0, 0, 0, 0.7);
 }
+/* TEXT  */
+.text-right{
+    text-align: right;
+}
 /* HEADER  */
 header{
     margin-bottom: 50px;
+    
+}
+.menu i{
+    font-size: 25px;
+ 
+}
+.logo img{
+    height: 100%;
 }
 header .content{
     margin: 0;
+    padding: 30px;
+    
 }
 /* MEDIA  */
 @media screen and (min-width: 768px) {
