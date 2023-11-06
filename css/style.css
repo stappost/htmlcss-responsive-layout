@@ -48,13 +48,19 @@ header .col-50{
     background-color: rgb(38, 121, 216)
 }
 .bg_purple{
-    background-color: purple;
+    background-color: #9792E4;
 }
 .bg_black{
     background-color: rgba(0, 0, 0, 0.7);
 }
+.bg_white{
+    background-color: white;
+}
 .color-blue{
     color:  #4676c8;
+}
+.color-white{
+    color: #fff;
 }
 /* PADDING MARGIN  */
 .padding-20{
@@ -102,12 +108,26 @@ header .content{
 }
 .card p{
     color: rgb(91, 90, 90);
+    font-weight: 600;
+   
+}
+.col-50 img{
+    width: 100%;
+}
+.content .bg_white{
+    border-radius: 30px;
+}
+p{
     font-size: 15px;
     line-height: 25px;
-    font-weight: 600;
+   
     margin: 20px 0;
 }
-
+.bg_white .bg_purple{
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
 /* MEDIA  */
 @media screen and (min-width: 768px) {
     .container{
