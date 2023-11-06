@@ -32,12 +32,16 @@ header .col-50{
 }
 
 .col-66,
+.col-50,
 .col-33{
     width: 100%;
 }
 /* BACKGROUND  */
 .bg_blue{
     background-color: blue;
+}
+.bg_purple{
+    background-color: purple;
 }
 /* HEADER  */
 header{
