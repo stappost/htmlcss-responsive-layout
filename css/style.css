@@ -13,20 +13,37 @@
     display: flex;
     flex-wrap: wrap;
 }
-.content{
+header .content{
     height: 50px;
+    
+}
+.content{
+    margin: 10px;
+    height: 300px;
     background-color: red;
     border: 1px solid black;
 }
+
+
 
 /* COLUMN  */
 header .col-50{
     width: 50%;
 }
+
+.col-66,
+.col-33{
+    width: 100%;
+}
 /* BACKGROUND  */
 .bg_blue{
     background-color: blue;
 }
+/* HEADER  */
+header{
+    margin-bottom: 50px;
+}
+/* MEDIA  */
 @media screen and (min-width: 768px) {
     .container{
         max-width: 100%;
