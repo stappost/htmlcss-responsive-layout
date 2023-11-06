@@ -12,6 +12,7 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 header .content{
     height: 50px;
@@ -58,7 +59,13 @@ header .content{
 @media screen and (min-width: 768px) {
     .container{
         max-width: 100%;
-    }    
+    }
+    .col-66{
+        width: calc(100% / 3 * 2 - 10px);
+    }   
+    .col-33{
+        width: calc(100% / 3 - 10px);
+    } 
 }
 
 @media screen and (min-width: 992px) {
