@@ -14,8 +14,6 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20;
 }
 .content{ 
     width: 100%;
@@ -145,12 +143,17 @@ main > .bg_purple .container{
 /* cards  */
 .card{
     width: 100%;
-    padding: 20px;
     text-align: center;
     border-radius: 10%;
 }  
+.col-33 .card{
+    padding: 20px;
+}
 .col-33 .card i{
     font-size: 60px;
+}
+.col-100 .card{
+    padding: 20px;
 }
 .card button i{
     font-size: 20px;
@@ -197,6 +200,12 @@ h2.color-yellow{
     font-size: 50px;
     margin: 20px 0;
 }
+.col-100 img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 /* MEDIA  */
 @media screen and (min-width: 768px) {
@@ -208,6 +217,21 @@ h2.color-yellow{
     }   
     .col-33{
         width: calc(100% / 3 - 40px);
+    } 
+    .flex-1{
+        flex: 1;
+    }
+     .col-33 .content{
+        height: 100%;
+    }
+    .col-33 .card{
+        height: 100%;
+    }
+    .col-66 .content{
+        height: 100%;
+    }
+    .col-66 .card{
+        height: 100%;
     } 
     .col-100 .card{
         display: flex;
@@ -241,7 +265,7 @@ h2.color-yellow{
         font-size: 15px;
     }
     .col-50{
-        width: calc(100% / 2 - 40px);
+        width: calc(100% / 2 - 20px);
     }
     .bg_purple .col-50:nth-child(2){
         width: calc(100% / 2 - 300px);
@@ -258,5 +282,8 @@ h2.color-yellow{
     }
     .col-66 .card{
         display: flex;
+    }
+    .col-66 .card .img{
+        align-self: flex-end;
     }
 }
