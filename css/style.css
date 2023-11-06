@@ -66,6 +66,9 @@ header .content{
     .col-33{
         width: calc(100% / 3 - 10px);
     } 
+    .bg_purple .col-33{
+        width: calc(100% / 2 - 10px);
+    }
 }
 
 @media screen and (min-width: 992px) {
