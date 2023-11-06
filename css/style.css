@@ -6,7 +6,6 @@
 body{
     font-family: sans-serif;
 }
-
 /* COMMON  */
 .container{
     max-width: 100%;
@@ -17,8 +16,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
-.content{
-   
+.content{ 
     width: 100%;
     /* height: 300px; 
     background-color: red;
@@ -59,8 +57,17 @@ header .col-50{
 .color-blue{
     color:  #4676c8;
 }
+.bg_lightblue{
+    background-color: rgb(151, 204, 229);
+}
 .color-white{
     color: #fff;
+}
+.color-purple{
+    color: #9792E4;
+}
+.color-gray{
+    color: rgb(91, 90, 90);
 }
 /* PADDING MARGIN  */
 .padding-20{
@@ -75,8 +82,7 @@ header .col-50{
 }
 /* HEADER  */
 header{
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;   
 }
 .menu i{
     font-size: 25px;
@@ -88,12 +94,10 @@ header{
 header .content{
     margin: 0;
     padding: 30px;
-    
 }
 /* MAIN  */
 /* cards  */
 .card{
-    background-color: rgb(151, 204, 229);
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -106,12 +110,10 @@ header .content{
     font-size: 20px;
     margin: 10px 0;
 }
-.card p{
-    color: rgb(91, 90, 90);
+.card p{   
     font-weight: 600;
-   
 }
-.col-50 img{
+main .col-50 img{
     width: 100%;
 }
 .content .bg_white{
@@ -120,13 +122,15 @@ header .content{
 p{
     font-size: 15px;
     line-height: 25px;
-   
     margin: 20px 0;
 }
 .bg_white .bg_purple{
     padding: 10px;
     border-radius: 50%;
-    margin-bottom: 10px;
+}
+.rounded{
+    width: 50%;
+    border-radius: 50%;
 }
 /* MEDIA  */
 @media screen and (min-width: 768px) {
