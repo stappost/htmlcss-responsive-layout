@@ -212,9 +212,20 @@ h2.color-yellow{
     .col-100 .card{
         display: flex;
         text-align: left;
+        align-items: center;
     }
     .bg_purple .col-33{
         width: calc(100% / 2 - 40px);
+    }
+    footer .bg_black{
+        padding: 10px 150px;
+    }
+    .card.bg_purple h2{
+        margin-top: 20px;
+    }
+    h3.large{
+        font-size: 25px;
+        margin: 20px 0;
     }
 }
 
