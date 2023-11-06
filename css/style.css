@@ -44,6 +44,9 @@ header .col-50{
 .bg_purple{
     background-color: purple;
 }
+.bg_black{
+    background-color: rgba(0, 0, 0, 0.7);
+}
 /* HEADER  */
 header{
     margin-bottom: 50px;
