@@ -256,4 +256,7 @@ h2.color-yellow{
     .show{
         display: none;
     }
+    .col-66 .card{
+        display: flex;
+    }
 }
