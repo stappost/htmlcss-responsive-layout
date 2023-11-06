@@ -26,6 +26,15 @@ body{
 .d-flex{
     display: flex;
 }
+.hidden{
+    display: none;
+}
+header ul{
+    list-style-type: none;
+}
+header li{
+    padding: 10px 20px;
+}
 button{
     padding: 5px 50px;
     border: none;
@@ -108,6 +117,10 @@ header .content{
     margin: 0;
     padding: 30px;
 }
+header li button{
+    font-size: 10px;
+    padding: 20px;
+}
 /* MAIN  */
 /* cards  */
 .card{
@@ -136,7 +149,7 @@ header .content{
 
 
 main .col-50 img{
-    width: 100%;
+    width: 50%;
 }
 .content .bg_white{
     border-radius: 30px;
@@ -179,9 +192,19 @@ p{
         max-width: 1200px;
     }
     .col-50{
-        width: 50%;
+        width: calc(100% / 2 - 40px);
+    }
+    .bg_purple .col-50:nth-child(2){
+        width: calc(100% / 2 - 300px);
+        align-self: flex-end;
     }
     .bg_purple .col-33{
-        width: calc(100% / 3 - 10px);
+        width: calc(100% / 3 - 40px);
+    }
+    .hidden{
+        display: flex;
+    }
+    .show{
+        display: none;
     }
 }
