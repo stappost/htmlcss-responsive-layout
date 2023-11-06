@@ -25,6 +25,12 @@ body{
 .d-flex{
     display: flex;
 }
+button{
+    padding: 5px 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
 
 
 
@@ -58,7 +64,7 @@ header .col-50{
     color:  #4676c8;
 }
 .bg_lightblue{
-    background-color: rgb(151, 204, 229);
+    background-color: #B5DDFF;
 }
 .color-white{
     color: #fff;
@@ -106,6 +112,10 @@ header .content{
 .card i{
     font-size: 60px;
 }
+.card button i{
+    font-size: 20px;
+    padding: 0 10px;
+}
 .card h3{
     font-size: 20px;
     margin: 10px 0;
@@ -113,6 +123,13 @@ header .content{
 .card p{   
     font-weight: 600;
 }
+.card img {
+    width: 100%;
+    position: relative;
+    top: 25px;
+}
+
+
 main .col-50 img{
     width: 100%;
 }
