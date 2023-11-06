@@ -23,18 +23,11 @@ body{
     background-color: red;
     border: 1px solid black;  */
 }
+
 .d-flex{
     display: flex;
 }
-.hidden{
-    display: none;
-}
-header ul{
-    list-style-type: none;
-}
-header li{
-    padding: 10px 20px;
-}
+
 button{
     padding: 5px 50px;
     border: none;
@@ -121,7 +114,22 @@ header li button{
     font-size: 10px;
     padding: 20px;
 }
+.hidden{
+    display: none;
+}
+header ul{
+    list-style-type: none;
+}
+header li{
+    padding: 10px;
+}
 /* MAIN  */
+main .container{
+    margin-top: 50px;
+}
+main > .bg_purple .container{
+    padding: 30px;
+}
 /* cards  */
 .card{
     width: 100%;
@@ -190,6 +198,13 @@ p{
 @media screen and (min-width: 992px) {
     .container{
         max-width: 1200px;
+    }
+    header .content{
+        padding: 10px 0;
+    }
+    header button{
+        padding: 5px 15px;
+        font-size: 15px;
     }
     .col-50{
         width: calc(100% / 2 - 40px);
