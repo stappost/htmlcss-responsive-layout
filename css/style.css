@@ -75,4 +75,10 @@ header .content{
     .container{
         max-width: 1200px;
     }
+    .col-50{
+        width: 50%;
+    }
+    .bg_purple .col-33{
+        width: calc(100% / 3 - 10px);
+    }
 }
